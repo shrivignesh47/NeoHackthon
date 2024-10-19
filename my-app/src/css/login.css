@@ -1,0 +1,33 @@
+.login-container {
+    background-color: #f7f9fc;
+  }
+  
+  .card {
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  .form-label {
+    font-size: 14px;
+  }
+  
+  .button {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #0056b3;
+  }
+  

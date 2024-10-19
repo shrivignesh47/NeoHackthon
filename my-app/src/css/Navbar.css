@@ -1,0 +1,57 @@
+.navbar {
+  background-color: #f8f9fa; /* Light background */
+}
+
+/* Flex container to take up full width */
+.navbar .container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between nav items and brand */
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Overall horizontal padding */
+}
+
+/* Aligning nav items to the left */
+.navbar .nav-left {
+  display: flex; /* Ensure items are laid out in a row */
+}
+
+/* General styles for nav links */
+.navbar .nav-link {
+  color: #6c757d; /* Secondary text color */
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 5px; /* Space between icon and text */
+  padding: 10px 15px; /* Adjusted padding for control */
+  transition: color 0.2s ease; /* Smooth color transition */
+}
+
+.navbar .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Style for the logo and title on the right */
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #007bff; /* Bootstrap primary color */
+  display: flex; /* Align logo and title */
+  align-items: center; /* Center logo and title vertically */
+}
+
+/* Style for the logo */
+.navbar 
+.navbar-logo {
+  height: 40px; /* Adjust height as needed */
+  margin-right: -10vh; /* Space between logo and title */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .navbar .container {
+    padding: 0 10px; /* Less padding on smaller screens */
+  }
+
+  /* Adjust nav link padding for smaller screens */
+  .navbar .nav-link {
+    padding: 10px 8px; /* Reduce padding on smaller screens */
+  }
+}

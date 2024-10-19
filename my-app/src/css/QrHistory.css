@@ -1,0 +1,94 @@
+/* General Styles for the Body */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Use a clean font */
+  background-color: #f0f4f8; /* Light background color for the entire page */
+}
+
+/* QR History Container */
+.qr-history-container {
+  padding: 40px; /* Increased padding for better spacing */
+  background-color: #ffffff; /* White background for container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  margin: 40px auto; /* Center the container with margin */
+  max-width: 1494px;/* Limit maximum width */
+  min-height: calc(100vh - 80px); /* Ensure it covers the entire height */
+  display: flex;
+  flex-direction: column; /* Allow flex properties for child elements */
+  justify-content: center; /* Center content vertically */
+}
+
+/* Title Styles */
+.qr-history-title {
+  margin-bottom: 25px; /* Margin below the title */
+  font-size: 28px; /* Larger font size */
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  text-align: center; /* Center align title */
+}
+
+/* Button Styles */
+.back-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 12px 20px; /* Padding for better touch area */
+  border-radius: 5px; /* Rounded button */
+  cursor: pointer;
+  margin-bottom: 25px; /* Margin below button */
+  transition: background-color 0.3s, transform 0.3s; /* Animation for hover */
+  font-size: 16px; /* Increased font size */
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Table Styles */
+.qr-history-table {
+  width: 100%; /* Full width of the container */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 15px; /* Margin on top */
+}
+
+.qr-history-table th,
+.qr-history-table td {
+  padding: 15px; /* Increased padding */
+  text-align: left; /* Left align text */
+  border: 1px solid #ddd; /* Light border */
+}
+
+.qr-history-table th {
+  background-color: #007bff; /* Header background */
+  color: white; /* Header text color */
+  font-weight: bold; /* Bold text in header */
+}
+
+.qr-history-table tr:hover {
+  background-color: #e7f3ff; /* Softer hover color */
+}
+
+/* QR Code Image Styles */
+.qr-code-img {
+  width: 100px; /* Consistent size */
+  height: auto; /* Auto height */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Loading and Error Message Styles */
+.loading {
+  text-align: center; /* Center align */
+  font-size: 20px; /* Larger font size */
+  color: #007bff; /* Primary color */
+  margin-top: 20px; /* Margin for spacing */
+}
+
+.error {
+  text-align: center; /* Center align */
+  font-size: 20px; /* Larger font size */
+  color: red; /* Red color */
+  margin-top: 20px; /* Margin for spacing */
+}

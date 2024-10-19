@@ -1,0 +1,43 @@
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .qr-section, .analytics-section {
+    width: 45%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .analytics-details {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .scan-list {
+    margin-top: 20px;
+  }
+  
+  .scan-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .scan-item:last-child {
+    border-bottom: none;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
